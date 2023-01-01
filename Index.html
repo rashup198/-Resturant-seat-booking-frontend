@@ -1,58 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gasthaus</title>
-    
-    <link rel="icon" href="ras.ico" type="image">
 
+    <link rel="icon" href="ras.ico" type="image">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Montserrat:wght@700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
 
 
-    
-    <div class="left">
-        <!-- for logo -->
 
-        <img src="img/logo.jpg" alt="logo">
+        <div class="left">
+            <!-- for logo -->
 
-        <div style="line-height: 17px; text-align: center; font-size: 16px;" >Gasthaus</div>
+            <img src="img/logo.jpg" alt="logo">
+
+            <div style="line-height: 17px; text-align: center; font-size: 12px;">Gasthaus</div>
+
+        </div>
+
+        <div class="mid">
+            <!-- for nav bar -->
+            <div class="navbar">
+
+                <ul>
+
+                    <li> <a href="#" class="active">Home</a> </li>
+                    <li> <a href="#">About Us</a> </li>
+                    <li> <a href="#">Locate Us</a> </li>
+                    <li> <a href="#">Contact Us</a> </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <!-- for button -->
+
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+
+
+        </div>
+
+        <div class="welcome">
+            <h1>Welcome to <strong>Gasthaus</strong></h1>
+        </div>
+
+    </header>
+
+
+
+    <div class="container">
+
+        <h2>Book Your Seat In Best Resturant in Bhopal</h2>
+
+
+        <form action="noaction.php">
+
+            <label for="name"></label>
+            <input type="text" name="User_name" id="name" placeholder="Enter Your Name">
+
+            <br>
+            <label for="mono"></label>
+            <input type="number" name="user_Mobile_number" id="mono" placeholder="Enter Your Mobile Number">
+            <br>
+
+            <label for="mail"></label>
+            <input type="text" name="user_mail" id="mail" placeholder="Enter Your  Email Id">
+
+            <br>
+            <label for="no_of_seats"></label>
+            <input type="number" name="User_number" id="no_of_seats" placeholder="Enter no. of seats">
+
+            <br>
+          
+            <label for="date">Booking Date</label>
+            <br>
+            <input type="date" name="User_date" id="date" >
+
+            <br>
+            <label for="spl">Anything Special You Want to add</label>
+            <br>
+            <textarea name="user_spcl" id="spl" cols="30" rows="5"></textarea>
+
+            <br>
+            <button class="btn">Book Your Seat</button>
+
+        </form>
 
     </div>
-
-    <div class="mid">
-        <!-- for nav bar -->
-        <div class="navbar">
-        
-        <ul>
-
-            <li> <a href="#" class="active">Home</a> </li>
-            <li> <a href="#">About Us</a> </li>
-            <li> <a href="#">Locate Us</a> </li>
-            <li> <a href="#">Contact Us</a> </li>
-            
-        </ul>
-    </div>
-
-    </div>
-
-    <div class="right">
-
-        <!-- for button -->
-
-        <button class="btn">Call Us Now</button>
-        <button class="btn">EMail Us</button>
-
-       
-
-    </div>
-
-
-</header>
 </body>
+
 </html>
