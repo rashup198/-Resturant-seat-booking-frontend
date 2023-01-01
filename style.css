@@ -1,0 +1,84 @@
+body{
+    background: url(img/master.jpg);
+    height: 1000px;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+font-family: 'Montserrat', sans-serif;
+ 
+    
+}
+
+.left{
+
+    /* border: 2px solid orange; */
+    position: absolute;
+    display: inline-block;
+
+}
+.left img{
+   
+    width: 60px;
+}
+
+.mid{
+
+    /* border: 2px solid violet; */
+    display: block;
+    width: 37%;
+    
+    margin: 12px auto;
+}
+
+.right{
+
+    border: 2px solid brown;
+    position: absolute;
+    right: 11px ;
+    top: 12px;
+    display: inline-block;
+}
+
+.navbar{
+    display: inline-block;
+    
+}
+.navbar li{
+    display: inline-block;
+    text-decoration: none;
+    
+    font-size: 20px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 24px;
+}
+
+ .navbar li a:hover  {
+
+    /* background-color: black; */
+    color: gray;
+     /* border: 2px solid gray;  */
+    border-radius: 10px;
+    text-decoration: underline;
+    padding: 5px;
+
+}
+
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn{
+    font-family: 'Balsamiq Sans', cursive;
+font-family: 'Montserrat', sans-serif;
+
+    cursor: pointer;
+    margin: 7px;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
